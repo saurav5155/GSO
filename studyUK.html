@@ -53,6 +53,24 @@
 			<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
         <![endif]-->
 
+        <style>
+            table {
+              font-family: arial, sans-serif;
+              border-collapse: collapse;
+              width: 100%;
+            }
+            
+            td, th {
+              border: 1px solid #dddddd;
+              text-align: left;
+              padding: 8px;
+            }
+            
+            tr:nth-child(even) {
+              background-color: #dddddd;
+            }
+        </style>
+
     </head>
 	
 	<body>
@@ -84,7 +102,7 @@
 										Study abroad steps
 									</a>
 									<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-										<a class="dropdown-item" href="#">Why study abroad</a>
+										<a class="dropdown-item" href="studyAbroad.html">Why study abroad</a>
 										<a class="dropdown-item" href="#">Another action</a>
 										<a class="dropdown-item" href="#">Something else here</a>
 									</div>
@@ -95,11 +113,11 @@
 										Study destinations
 									</a>
 									<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-										<a class="dropdown-item" href="#">Study in UK</a>
-										<a class="dropdown-item" href="#">Study in Canada</a>
-										<a class="dropdown-item" href="#">Study in USA</a>
-										<a class="dropdown-item" href="#">Study in Europe</a>
-										<a class="dropdown-item" href="#">Study in Asia</a>
+										<a class="dropdown-item" href="studyUK.html">Study in UK</a>
+										<a class="dropdown-item" href="studyCanada.html">Study in Canada</a>
+										<a class="dropdown-item" href="studyUSA.html">Study in USA</a>
+										<a class="dropdown-item" href="studyEurope.html">Study in Europe</a>
+										<a class="dropdown-item" href="studyDubai.html">Study in Dubai</a>
 									</div>
 								</li>
 			                    <li class="nav-item dropdown">
@@ -107,9 +125,9 @@
 										IELTS
 									</a>
 									<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-										<a class="dropdown-item" href="#">What is IELTS?</a>
-										<a class="dropdown-item" href="#">IELTS Preparation</a>
-										<a class="dropdown-item" href="#">Book an IELTS test</a>
+										<a class="dropdown-item" href="ielts.html">What is IELTS?</a>
+										<a class="dropdown-item" href="ieltsPrep.html">IELTS Preparation</a>
+										<a class="dropdown-item" href="ieltsTest.html">Book an IELTS test</a>
 									</div>
 								</li>
 								<li class="nav-item dropdown">
@@ -117,12 +135,12 @@
 										Study Essentials
 									</a>
 									<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-										<a class="dropdown-item" href="#">Education Loan</a>
-										<a class="dropdown-item" href="#">Accomodation</a>
+										<a class="dropdown-item" href="educationLoan.html">Education Loan</a>
+										<a class="dropdown-item" href="accomodation.html">Accomodation</a>
 										<a class="dropdown-item" href="#">Something else here</a>
 									</div>
 								</li>
-			                    <li class="nav-item"><a class="nav-link" href="contact.html">contact</a></li>
+			                    <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
 			                </ul><!--/.nav -->
 			            </div><!-- /.navbar-collapse -->
 			        </div><!--/.container-->
@@ -135,21 +153,208 @@
 		<!-- top-area End -->
 
         <!--welcome-hero start -->
-		<section id="home" class="study-UK">
-			<div class="container">
-				<div class="welcome-hero-txt">
-					<h2>Study in UK - Top Universities, Courses & Student Visas for Indian Students</h2>
-				</div>
-					<div class="welcome-hero-serch">
-						<button class="welcome-hero-btn" onclick="window.location.href='https://docs.google.com/forms/d/e/FormID/viewform?embedded=true'">
-							 Contact GSO  <i data-feather="search"></i> 
-						</button>
+<section id="home" class="study-UK">
+    <div class="container">
+        <div class="welcome-hero-txt">
+            <h2 style="font-size: 36px; font-weight: bold; color: #337ab7; margin-bottom: 20px;">Study in UK - Top Universities, Courses & Student Visas for Indian Students</h2>
+        </div>
+        <div class="welcome-hero-serch">
+            <button class="welcome-hero-btn" style="background-color: #337ab7; color: #fff; border: none; padding: 10px 20px; font-size: 16px; cursor: pointer;" onclick="window.location.href='https://docs.google.com/forms/d/e/FormID/viewform?embedded=true'">
+                Contact GSO  <i data-feather="search" style="font-size: 18px; margin-left: 10px;"></i> 
+            </button>
+        </div>
+    </div>
+</section><!--/.welcome-hero-->
+<!--welcome-hero end -->
+
+<div class="container" style="max-width: 1400px; margin: 40px auto; padding: 20px; background-color: #f9f9f9; border: 1px solid #ddd; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);">
+    <h1 style="font-size: 24px; font-weight: bold; margin-bottom: 20px;"><b>Discover a world-class education in the UK, a renowned global hub for excellence in education and research.</b></h1>
+
+    <p style="font-size: 18px; margin-bottom: 20px;">The United Kingdom (UK) is home to some of the world's oldest universities and colleges having their roots in the 12th and 13th centuries. Coming from such a strong legacy, study in UK has become a benchmark for other countries.</p>
+
+    <h2 style="font-size: 20px; font-weight: bold; margin-bottom: 20px;">Student visa requirements for the UK</h2>
+
+    <p style="font-size: 18px; margin-bottom: 20px;">Here's an overview of the types of study visas and their application requirements:</p>
+
+    <table style="width: 100%; border-collapse: collapse; margin-bottom: 20px;">
+        <tr>
+            <th style="background-color: #f0f0f0; padding: 10px; border: 1px solid #ddd;">Type of student visa</th>
+            <th style="background-color: #f0f0f0; padding: 10px; border: 1px solid #ddd;">Who it's for</th>
+            <th style="background-color: #f0f0f0; padding: 10px; border: 1px solid #ddd;">When to apply</th>
+            <th style="background-color: #f0f0f0; padding: 10px; border: 1px solid #ddd;">Arrival in the UK</th>
+        </tr>
+        <tr>
+            <td style="padding: 10px; border: 1px solid #ddd;">Tier 4 (General) student visa</td>
+            <td style="padding: 10px; border: 1px solid #ddd;">Students aged 16 or over who have been offered a place in a course at a UK educational institution with a valid Tier 4 sponsor</td>
+            <td style="padding: 10px; border: 1px solid #ddd;">Three months before the start of your course</td>
+            <td style="padding: 10px; border: 1px solid #ddd;">Up to one week before if your course lasts six months or fewer.<br>Up to one month before if your course lasts more than six months</td>
+        </tr>
+        <tr>
+            <td style="padding: 10px; border: 1px solid #ddd;">Short-term study visa</td>
+            <td style="padding: 10px; border: 1px solid #ddd;">Students who have offered a place in a short-term course in the UK, such as an English language course or training course</td>
+            <td style="padding: 10px; border: 1px solid #ddd;">Three months before your date of travel to the UK</td>
+            <td style="padding: 10px; border: 1px solid #ddd;">Depends on your nominated travel dates</td>
+        </tr>
+    </table>
+</div>
+
+<form id="myForm">
+	<label for="name">Name:</label>
+	<input type="text" id="name" name="name"><br><br>
+	<label for="email">Email:</label>
+	<input type="email" id="email" name="email"><br><br>
+	<label for="phone">Phone:</label>
+	<input type="tel" id="phone" name="phone"><br><br>
+	<label for="message">Message:</label>
+	<textarea id="message" name="message"></textarea><br><br>
+	<label for="country">Country:</label>
+	<select id="country" name="country">
+	  <option value="">Select a country</option>
+	  <option value="USA">USA</option>
+	  <option value="Canada">Canada</option>
+	  <option value="UK">UK</option>
+	</select><br><br>
+	<button type="submit">Submit</button>
+  </form>
+  
+  <script>
+	const form = document.getElementById('myForm');
+  
+	form.addEventListener('submit', (e) => {
+	  e.preventDefault();
+	  const formData = new FormData(form);
+	  const xhr = new XMLHttpRequest();
+	  xhr.open('POST', 'https://script.google.com/macros/s/AKfycbzLfnXuYzIPEy91UIDwnADZ_z36I_FhBiePM_c6FWrYTrJQdgo5n2TwTH8wBrPeb93d/exec', true);
+	  xhr.send(formData);
+	  alert('Form submitted successfully!');
+	});
+  </script>
+
+			<!--footer start-->
+	<footer id="footer" class="footer">
+		<div class="container">
+			<div class="footer-menu">
+				<div class="row">
+					<div class="col-sm-3">
+						<div class="navbar-header">
+							<a class="navbar-brand" href="index.html">Global Solution Overseas</a>
+						</div><!--/.navbar-header-->
+					</div>
+					<div class="col-sm-9">
+						<ul class="footer-menu-item">
+							<li class="scroll"><a href="#works">Why GSO</a></li>
+							<li class="scroll"><a href="#explore">Reviews</a></li>
+							<li class="scroll"><a href="#reviews">Our Universities</a></li>
+							<li class="scroll"><a href="#blog">Our Services</a></li>
+						</ul><!--/.nav -->
 					</div>
 				</div>
 			</div>
+			<div class="hm-footer-copyright">
+				<div class="row">
+					<div class="col-sm-5">
+						<p><b>Contact us : </b></p>
+						<p>
+							Global Solution Overseas (GSO)
+							Near Block, College Road, Ghatshila, East Singhbhum,
+							Jharkhand - 832303, India
+						</p>
+						<br>
+						<p>
+							&copy;copyright. designed and developed by GSO
+						</p><!--/p-->
+						<p><a href="#">Terms of use </i></a> | <a href="#"> Privacy policy </i></a></p>
+					</div>
+					<div class="col-sm-7">
+						<div class="footer-social">
+							<span><i class="fa fa-phone"> +91 7903189971</i></span>
+							<a href="#"><i class="fa fa-facebook"></i></a>
+							<a href="#"><i class="fa fa-twitter"></i></a>
+							<a href="#"><i class="fa fa-linkedin"></i></a>
+							<a href="#"><i class="fa fa-google-plus"></i></a><br>
+						</div>
+					</div>
+				</div>
 
-		</section><!--/.welcome-hero-->
-		<!--welcome-hero end -->
+			</div><!--/.hm-footer-copyright-->
+		</div><!--/.container-->
+
+		<div id="scroll-Top">
+			<div class="return-to-top">
+				<i class="fa fa-angle-up " id="scroll-top" data-toggle="tooltip" data-placement="top" title=""
+					data-original-title="Back to Top" aria-hidden="true"></i>
+			</div>
+
+		</div><!--/.scroll-Top-->
+
+	</footer><!--/.footer-->
+	<!--footer end-->
+
+	<!-- Include all js compiled plugins (below), or include individual files as needed -->
+
+	<script src="assets/js/jquery.js"></script>
+
+	<!--modernizr.min.js-->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+
+	<!--bootstrap.min.js-->
+	<script src="assets/js/bootstrap.min.js"></script>
+
+	<!-- bootsnav js -->
+	<script src="assets/js/bootsnav.js"></script>
+
+	<!--feather.min.js-->
+	<script src="assets/js/feather.min.js"></script>
+
+	<!-- counter js -->
+	<script src="assets/js/jquery.counterup.min.js"></script>
+	<script src="assets/js/waypoints.min.js"></script>
+
+	<!--slick.min.js-->
+	<script src="assets/js/slick.min.js"></script>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+
+	<!--Custom JS-->
+	<script src="assets/js/custom.js"></script>
+
+	<style>
+		.dropdown-menu {
+			background-color: #f9f9f9;
+			border: 1px solid #ccc;
+			border-radius: 5px;
+			box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+			padding: 10px;
+			width: 200px;
+		}
+
+		.dropdown-item {
+			color: #333;
+			text-decoration: none;
+			display: block;
+			padding: 10px;
+			border-bottom: 1px solid #ccc;
+		}
+
+		.dropdown-item:hover {
+			background-color: #f0f0f0;
+			color: #337ab7;
+		}
+
+		.dropdown-item:last-child {
+			border-bottom: none;
+		}
+
+		.dropdown-menu::before {
+			content: "";
+			position: absolute;
+			top: -10px;
+			left: 20px;
+			border-style: solid;
+			border-width: 0 10px 10px 10px;
+			border-color: transparent transparent #f9f9f9 transparent;
+		}
+	</style>
 
     </body>
 </html>

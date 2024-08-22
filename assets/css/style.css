@@ -256,7 +256,26 @@ nav.navbar.bootsnav .navbar-toggle i{color: #ff545a;}
     background-position:center;
     background-size:cover;
     text-align: center;
-    height:800px;
+    height:500px;
+    z-index: 1;
+}
+.study-USA {
+    position: relative;
+    background:url(../images/study/studyUSA.jpg)no-repeat;
+    background-position:center;
+    background-size:cover;
+    text-align: center;
+    height:500px;
+    z-index: 1;
+}
+
+.study-abroad {
+    position: relative;
+    background:url(../images/studyAbroad/studyAbroad.jpg)no-repeat;
+    background-position:center;
+    background-size:cover;
+    text-align: center;
+    height:500px;
     z-index: 1;
 }
 .welcome-hero:before{
@@ -323,6 +342,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #ff545a;}
 }
 .welcome-hero-btn {
     display:  flex;
+    align-items: center;
     justify-content:  center;
     align-items:  center;
     font-size:  14px;
@@ -561,7 +581,6 @@ nav.navbar.bootsnav .navbar-toggle i{color: #ff545a;}
 }
 .explore-person {
     padding-bottom: 28px;
-    border-bottom: 1px solid #e1e5eb;
 }
 .explore-person-img{
     width: 40px;
