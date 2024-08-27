@@ -53,58 +53,27 @@
 			<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
         <![endif]-->
 
+        <style>
+            table {
+              font-family: arial, sans-serif;
+              border-collapse: collapse;
+              width: 100%;
+            }
+            
+            td, th {
+              border: 1px solid #dddddd;
+              text-align: left;
+              padding: 8px;
+            }
+            
+            tr:nth-child(even) {
+              background-color: #dddddd;
+            }
+        </style>
+
     </head>
 	
 	<body>
-		<!--[if lte IE 9]>
-            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
-        <![endif]-->
-		
-		<!--header-top start -->
-		<!-- <header id="header-top" class="header-top">
-			<ul>
-				<li>
-					<div class="header-top-left">
-						<ul>
-							<li class="select-opt">
-								<select name="language" id="language">
-									<option value="default">EN</option>
-									<option value="Bangla">BN</option>
-									<option value="Arabic">AB</option>
-								</select>
-							</li>
-							<li class="select-opt">
-								<select name="currency" id="currency">
-									<option value="usd">USD</option>
-									<option value="euro">Euro</option>
-									<option value="bdt">BDT</option>
-								</select>
-							</li>
-							<li class="select-opt">
-								<a href="#"><span class="lnr lnr-magnifier"></span></a>
-							</li>
-						</ul>
-					</div>
-				</li>
-				<li class="head-responsive-right pull-right">
-					<div class="header-top-right">
-						<ul>
-							<li class="header-top-contact">
-								+1 222 777 6565
-							</li>
-							<li class="header-top-contact">
-								<a href="#">sign in</a>
-							</li>
-							<li class="header-top-contact">
-								<a href="#">register</a>
-							</li>
-						</ul>
-					</div>
-				</li>
-			</ul>
-					
-		</header>/.header-top -->
-		<!--header-top end -->
 
 		<!-- top-area Start -->
 		<section class="top-area">
@@ -128,11 +97,50 @@
 			            <!-- Collect the nav links, forms, and other content for toggling -->
 			            <div class="collapse navbar-collapse menu-ui-design" id="navbar-menu">
 			                <ul class="nav navbar-nav navbar-right" data-in="fadeInDown" data-out="fadeOutUp">
-			                    <li class=" scroll active"><a href="#home">home</a></li>
-			                    <li class="scroll"><a href="#works">how it works</a></li>
-			                    <li class="scroll"><a href="#explore">Upcoming Events</a></li>
-			                    <li class="scroll"><a href="#reviews">review</a></li>
-			                    <li class="nav-item"><a class="nav-link" href="contact.html">contact</a></li>
+								<li class="nav-item dropdown">
+									<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+										Study abroad steps
+									</a>
+									<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+										<a class="dropdown-item" href="studyAbroad.html">Why study abroad</a>
+										<a class="dropdown-item" href="#">Another action</a>
+										<a class="dropdown-item" href="#">Something else here</a>
+									</div>
+								</li>
+								<!-- <li class=" scroll active"><a href="#home">home</a></li> -->
+			                    <li class="nav-item dropdown">
+									<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+										Study destinations
+									</a>
+									<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+										<a class="dropdown-item" href="studyUK.html">Study in UK</a>
+										<a class="dropdown-item" href="studyCanada.html">Study in Canada</a>
+										<a class="dropdown-item" href="studyUSA.html">Study in USA</a>
+										<a class="dropdown-item" href="studyEurope.html">Study in Europe</a>
+										<a class="dropdown-item" href="studyDubai.html">Study in Dubai</a>
+									</div>
+								</li>
+			                    <li class="nav-item dropdown">
+									<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+										IELTS
+									</a>
+									<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+										<a class="dropdown-item" href="ielts.html">What is IELTS?</a>
+										<a class="dropdown-item" href="ieltsPrep.html">IELTS Preparation</a>
+										<a class="dropdown-item" href="ieltsTest.html">Book an IELTS test</a>
+									</div>
+								</li>
+								<li class="nav-item dropdown">
+									<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+										Study Essentials
+									</a>
+									<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+										<a class="dropdown-item" href="educationLoan.html">Education Loan</a>
+										<a class="dropdown-item" href="accomodation.html">Accomodation</a>
+										<a class="dropdown-item" href="#">Something else here</a>
+									</div>
+								</li>
+			                    <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
 			                </ul><!--/.nav -->
 			            </div><!-- /.navbar-collapse -->
 			        </div><!--/.container-->
@@ -140,6 +148,187 @@
 			    <!-- End Navigation -->
 			</div><!--/.header-area-->
 		    <div class="clearfix"></div>
-        </section>
+
+		</section><!-- /.top-area-->
+		<!-- top-area End -->
+
+        <!--welcome-hero start -->
+<section id="home" class="study-UK">
+    <div class="container">
+        <div class="welcome-hero-txt">
+            <h2 style="font-size: 36px; font-weight: bold; color: #e8eef4; margin-bottom: 20px;">Thanks for trusting GSO.</h2>
+        </div>
+        <div class="welcome-hero-serch">
+            <button style="margin: 0 auto;" class="welcome-hero-btn" style="background-color: #337ab7; color: #e8eef4; border: none; padding: 10px 20px; font-size: 16px; cursor: pointer;" onclick="window.location.href='https://docs.google.com/forms/d/e/FormID/viewform?embedded=true'">
+                Contact GSO  <i data-feather="search" style="font-size: 18px; margin-left: 10px;"></i> 
+            </button>
+        </div>
+    </div>
+</section><!--/.welcome-hero-->
+<!--welcome-hero end -->
+
+<div class="container" style="max-width: 1400px; margin: 40px auto; padding: 20px; background-color: #f9f9f9; border: 1px solid #ddd; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);">
+    <h1 style="font-size: 24px; font-weight: bold; margin-bottom: 20px;"><b>We will be happy to help you</b></h1>
+	<form id="myForm">
+		<label for="name">Name:</label>
+		<input type="text" id="name" name="name"><br><br>
+		<label for="email">Email:</label>
+		<input type="email" id="email" name="email"><br><br>
+		<label for="phone">Phone:</label>
+		<input type="tel" id="phone" name="phone"><br><br>
+		<label for="message">Message:</label>
+		<textarea id="message" name="message"></textarea><br><br>
+		<label for="country">Country:</label>
+		<select id="country" name="country">
+		  <option value="">Select a country</option>
+		  <option value="USA">USA</option>
+		  <option value="Canada">Canada</option>
+		  <option value="UK">UK</option>
+		</select><br><br>
+		<button class="welcome-hero-btn" type="submit">Submit</button>
+	  </form>
+</div>
+
+
+  
+  <script>
+	const form = document.getElementById('myForm');
+  
+	form.addEventListener('submit', (e) => {
+	  e.preventDefault();
+	  const formData = new FormData(form);
+	  const xhr = new XMLHttpRequest();
+	  xhr.open('POST', 'https://script.google.com/macros/s/AKfycbzLfnXuYzIPEy91UIDwnADZ_z36I_FhBiePM_c6FWrYTrJQdgo5n2TwTH8wBrPeb93d/exec', true);
+	  xhr.send(formData);
+	  alert('Form submitted successfully!');
+	});
+  </script>
+
+			<!--footer start-->
+	<footer id="footer" class="footer">
+		<div class="container">
+			<div class="footer-menu">
+				<div class="row">
+					<div class="col-sm-3">
+						<div class="navbar-header">
+							<a class="navbar-brand" href="index.html">Global Solution Overseas</a>
+						</div><!--/.navbar-header-->
+					</div>
+					<div class="col-sm-9">
+						<ul class="footer-menu-item">
+							<li class="scroll"><a href="#works">Why GSO</a></li>
+							<li class="scroll"><a href="#explore">Reviews</a></li>
+							<li class="scroll"><a href="#reviews">Our Universities</a></li>
+							<li class="scroll"><a href="#blog">Our Services</a></li>
+						</ul><!--/.nav -->
+					</div>
+				</div>
+			</div>
+			<div class="hm-footer-copyright">
+				<div class="row">
+					<div class="col-sm-5">
+						<p><b>Contact us : </b></p>
+						<p>
+							Global Solution Overseas (GSO)
+							Near Block, College Road, Ghatshila, East Singhbhum,
+							Jharkhand - 832303, India
+						</p>
+						<br>
+						<p>
+							&copy;copyright. designed and developed by GSO
+						</p><!--/p-->
+						<p><a href="#">Terms of use </i></a> | <a href="#"> Privacy policy </i></a></p>
+					</div>
+					<div class="col-sm-7">
+						<div class="footer-social">
+							<span><i class="fa fa-phone"> +91 7903189971</i></span>
+							<a href="#"><i class="fa fa-facebook"></i></a>
+							<a href="#"><i class="fa fa-twitter"></i></a>
+							<a href="#"><i class="fa fa-linkedin"></i></a>
+							<a href="#"><i class="fa fa-google-plus"></i></a><br>
+						</div>
+					</div>
+				</div>
+
+			</div><!--/.hm-footer-copyright-->
+		</div><!--/.container-->
+
+		<div id="scroll-Top">
+			<div class="return-to-top">
+				<i class="fa fa-angle-up " id="scroll-top" data-toggle="tooltip" data-placement="top" title=""
+					data-original-title="Back to Top" aria-hidden="true"></i>
+			</div>
+
+		</div><!--/.scroll-Top-->
+
+	</footer><!--/.footer-->
+	<!--footer end-->
+
+	<!-- Include all js compiled plugins (below), or include individual files as needed -->
+
+	<script src="assets/js/jquery.js"></script>
+
+	<!--modernizr.min.js-->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+
+	<!--bootstrap.min.js-->
+	<script src="assets/js/bootstrap.min.js"></script>
+
+	<!-- bootsnav js -->
+	<script src="assets/js/bootsnav.js"></script>
+
+	<!--feather.min.js-->
+	<script src="assets/js/feather.min.js"></script>
+
+	<!-- counter js -->
+	<script src="assets/js/jquery.counterup.min.js"></script>
+	<script src="assets/js/waypoints.min.js"></script>
+
+	<!--slick.min.js-->
+	<script src="assets/js/slick.min.js"></script>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+
+	<!--Custom JS-->
+	<script src="assets/js/custom.js"></script>
+
+	<style>
+		.dropdown-menu {
+			background-color: #f9f9f9;
+			border: 1px solid #ccc;
+			border-radius: 5px;
+			box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+			padding: 10px;
+			width: 200px;
+		}
+
+		.dropdown-item {
+			color: #333;
+			text-decoration: none;
+			display: block;
+			padding: 10px;
+			border-bottom: 1px solid #ccc;
+		}
+
+		.dropdown-item:hover {
+			background-color: #f0f0f0;
+			color: #337ab7;
+		}
+
+		.dropdown-item:last-child {
+			border-bottom: none;
+		}
+
+		.dropdown-menu::before {
+			content: "";
+			position: absolute;
+			top: -10px;
+			left: 20px;
+			border-style: solid;
+			border-width: 0 10px 10px 10px;
+			border-color: transparent transparent #f9f9f9 transparent;
+		}
+	</style>
+
     </body>
 </html>

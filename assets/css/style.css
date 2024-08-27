@@ -278,6 +278,16 @@ nav.navbar.bootsnav .navbar-toggle i{color: #ff545a;}
     height:500px;
     z-index: 1;
 }
+
+.ielts {
+    position: relative;
+    background:url(../images/ielts/ielts.jpg)no-repeat;
+    background-position:center;
+    background-size:cover;
+    text-align: center;
+    height:500px;
+    z-index: 1;
+}
 .welcome-hero:before{
     position: absolute;
     content: " ";
