@@ -167,24 +167,76 @@
         
             <p style="font-size: 18px; margin-bottom: 20px;"><b>5. Hear from our students</b></p>
             <p style="font-size: 18px; margin-bottom: 20px;">If you’re interested in studying overseas, you can read and watch videos to hear first-hand experiences from our students to inform your study abroad decisions.</p>
-        
-			<h2>Get FREE Counselling Today<span class=" block bg-gradient-to-r from-error to-warning-2 w-[24px] h-[6px] rounded-[8px] mt-[4px]"></span></h2>
-			<p class="text-neutral-1 mt-[16px]">Enter your details and one of our expert counsellors will reach out to you so we can connect you to the right course, country, university – and even scholarships!</p>
-    <form id="google-sheet" method="POST" action="https://script.google.com/macros/s/SCRIPT_ID/exec">
-      <label for="name">First name*</label>
-      <input type="text" id="fname" name="Name"><br>
+        <center>
+			<style>
+				
+				
+				table {
+				  width: 100%;
+				  border-collapse: collapse;
+				}
+				
+				th, td {
+				  padding: 10px;
+				  text-align: left;
+				  border-bottom: 1px solid #ddd;
+				}
+				
+				th {
+				  background-color: #0a0000;
+				}
+				
+				input[type="text"] {
+				  width: 100%;
+				  padding: 10px;
+				  margin: 10px 0;
+				  border: 1px solid #080000;
+				}
+				
+				input[type="submit"] {
+				  background-color: #4CAF50;
+				  color: #fff;
+				  padding: 10px 20px;
+				  border-radius: 5px;
+				  cursor: pointer;
+				}
+				
+				input[type="submit"]:hover {
+				  background-color: #3e8e41;
+				}
+			  </style>
+			  
+			  <form id="google-sheet" method="POST" action="https://script.google.com/macros/s/SCRIPT_ID/exec">
+				<div class="container">
+					<th><h1>Get FREE Counselling Today</h1></th><br>
+					<p>Enter your details and one of our expert counsellors will reach out to you so we can connect you to the right course, country, university – and even scholarships!</p>
+				  <table>
+					<tr>
+					  <td><label for="name">First Name* </label></td>
+					  <td><input type="text" id="fname" name="Name"></td>
+					</tr>
+					<tr>
+					  <td><label for="name">Last name* </label></td>
+					  <td><input type="text" id="lname" name="LastName"></td>
+					</tr>
+					<tr>
+					  <td><label for="email">Email address* </label></td>
+					  <td><input type="text" id="email" name="Email"></td>
+					</tr>
+					<tr>
+					  <td><label for="mobile">Mobile Number* &nbsp;&nbsp; </label></td>
+					  <td><input type="text" id="mobile" name="Mobile"></td>
+					</tr>
+					<tr>
+					  <td colspan="2">
+						<input type="submit" class="welcome-hero-btn" style="margin: 0 auto;" value="Submit">
+					  </td>
+					</tr>
+				  </table>
+				</div>
+			  </form>
 
-	  <label for="name">Last name*</label>
-      <input type="text" id="lname" name="LastName"><br>
-
-      <label for="email">Email address*</label>
-      <input type="text" id="email" name="Email"><br>
-
-      <label for="mobile">Mobile number*</label>
-      <input type="text" id="mobile" name="Mobile"><br>
-
-      <input type="submit" value="submit">
-    </form>
+			</center>
 
     <script>
       const scriptUrl = 'https://script.google.com/macros/s/AKfycbyQbd5SAyLu3hLPM1krprxcXEsR7lj4ZjuieZMfEH5qF0wuvhsmC0kNjUowi5Kq4500hQ/exec';
@@ -211,14 +263,6 @@
 						<div class="navbar-header">
 							<a class="navbar-brand" href="index.html">Global Solution Overseas</a>
 						</div><!--/.navbar-header-->
-					</div>
-					<div class="col-sm-9">
-						<ul class="footer-menu-item">
-							<li class="scroll"><a href="#works">Why GSO</a></li>
-							<li class="scroll"><a href="#explore">Reviews</a></li>
-							<li class="scroll"><a href="#reviews">Our Universities</a></li>
-							<li class="scroll"><a href="#blog">Our Services</a></li>
-						</ul><!--/.nav -->
 					</div>
 				</div>
 			</div>
@@ -289,44 +333,6 @@
 
 	<!--Custom JS-->
 	<script src="assets/js/custom.js"></script>
-
-	<style>
-		.dropdown-menu {
-			background-color: #f9f9f9;
-			border: 1px solid #ccc;
-			border-radius: 5px;
-			box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-			padding: 10px;
-			width: 200px;
-		}
-
-		.dropdown-item {
-			color: #333;
-			text-decoration: none;
-			display: block;
-			padding: 10px;
-			border-bottom: 1px solid #ccc;
-		}
-
-		.dropdown-item:hover {
-			background-color: #f0f0f0;
-			color: #337ab7;
-		}
-
-		.dropdown-item:last-child {
-			border-bottom: none;
-		}
-
-		.dropdown-menu::before {
-			content: "";
-			position: absolute;
-			top: -10px;
-			left: 20px;
-			border-style: solid;
-			border-width: 0 10px 10px 10px;
-			border-color: transparent transparent #f9f9f9 transparent;
-		}
-	</style>
 
     </body>
 </html>
